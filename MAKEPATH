@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cat >>~/.bashrc<<EOF
+
+# Flutter
+export PATH=/workspaces/Flutter/Develop/flutter/bin:\$PATH
+
+#Android SDK
+export ANDROID_SDK_ROOT=/workspaces/Flutter/Develop/AndroidSDK/android-sdk
+export PATH=\$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin
+export PATH=\$PATH:$ANDROID_SDK_ROOT/platform-tools
+EOF
