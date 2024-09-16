@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
         // 화면 상단 영역
         appBar: AppBar(
           title: Text(
-              "Hello Flutter",
-              style: TextStyle(fontSize: 28),
+            "Hello Flutter",
+            style: TextStyle(fontSize: 28),
           ),
           centerTitle: true,
         ),
@@ -39,13 +39,13 @@ class MyApp extends StatelessWidget {
                 ),
                 TextField(
                   decoration: InputDecoration(
-                  labelText: "이메일을 입력하세요.",
+                    labelText: "이메일을 입력하세요.",
                   ),
                 ),
                 TextField(
                   obscureText: true, // 입력된 텍스트 비화
                   decoration: InputDecoration(
-                  labelText: "비밀번호를 입력하세요.",
+                    labelText: "비밀번호를 입력하세요.",
                   ),
                 ),
                 Container(
